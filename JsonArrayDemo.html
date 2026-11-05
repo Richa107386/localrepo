@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Json Demo</title>
+	</head>
+	<!-- Body tag is used for displaying 
+	data in web page -->
+	<body>
+		<h2> Employee Details</h2>
+		<p id="demo"> </p>
+		<script>
+			var emp = [
+				{
+					"id":101,
+					"name":"Ram"
+				},
+				{
+					"id":110,
+					"name":"John"
+				}
+			];
+				
+				document.getElementById("demo").innerHTML=
+				"Id : "+emp[0].id+
+				"<br>Name : "+emp[0].name+
+				"<hr>Id : "+emp[1].id+
+				"<br>Name : "+emp[1].name;
+				
+				
+				
+		</script>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Json Demo</title>
+	</head>
+
+	<body>
+		<h2> Employee Details</h2>
+		<p id="demo"> </p>
+		<script>
+			var emp = {
+				"id":101,
+				"name" : "Richa",
+				"exp":2
+				};
+				
+				var str = JSON.stringify(emp);
+				document.getElementById("demo").innerHTML=str;
+		</script>
+	</body>
+</html>
