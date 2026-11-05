@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-Hi
-=======
 Hi... different texts.
->>>>>>> b16c3bb360a4cb309b295e2c99304f56ee8d7b2d
